@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container, .success-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    width: 350px;
+    text-align: center;
+}
+
+.login-form, .success-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"],
+.login-form button,
+.success-message {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.login-form input[type="email"]:focus,
+.login-form input[type="password"]:focus,
+.success-message:focus {
+    border-color: #2575fc;
+}
+
+.login-form button, .success-message {
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form button:hover, .success-message:hover {
+    background-color: #0056b3;
+}
+
+.signup-link, .logout-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.signup-link a, .logout-link a {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.signup-link a:hover, .logout-link a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.success-container {
+    text-align: center;
+    border: 2px solid #34495e; /* Subtle border */
+    padding: 20px 40px;
+    border-radius: 8px;
+    background-color: #34495e; /* Slightly lighter blue background for the container */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); /* Soft shadow for depth */
+    transition: all 0.3s ease-in-out;
+}
+
+.success-container h1 {
+    color: white; /* Sets the color of the text within the h1 tag to white */
+}
+
+.success-container:hover {
+    transform: scale(1.05); /* Slight scale on hover for interaction */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.45); /* Increased shadow on hover for more depth */
+}
+
+.success-message {
+    font-size: 1.5em; /* Slightly larger text size for visibility */
+}
+
+

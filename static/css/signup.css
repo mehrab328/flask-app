@@ -1,0 +1,95 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Signup Container */
+.signup-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Signup Form Styling */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-form button:hover {
+    background-color: #45a049;
+}
+
+/* Links Below Form */
+.signin-link, .signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.signin-link a, .signup-link a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.signin-link a:hover, .signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Thank You Page Styling */
+.thankyou-container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.feather.feather-check-circle {
+    color: #4CAF50; /* Stylish green color */
+    margin-bottom: 20px;
+    width: 64px; /* Size of the SVG icon */
+    height: 64px;
+}
+
+h1 {
+    font-weight: 500;
+    color: #333;
+}
+
+.thankyou-container:hover {
+    transform: scale(1.05); /* Slight scale on hover for interaction */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.45); /* Increased shadow on hover for more depth */
+}
