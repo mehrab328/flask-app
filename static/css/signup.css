@@ -93,3 +93,21 @@ h1 {
     transform: scale(1.05); /* Slight scale on hover for interaction */
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.45); /* Increased shadow on hover for more depth */
 }
+
+.login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50; /* Match SVG icon color */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from link */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-button:hover {
+    background-color: #369636; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight scale for interactive effect */
+}
